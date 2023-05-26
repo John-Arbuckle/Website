@@ -1,0 +1,51 @@
+body {
+    background-image: url("download.png");
+    background-repeat: no-repeat, repeat;
+    background-position:center;
+    background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed
+}
+.title {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    top: 1rem;
+    left: 0;
+    padding: 1rem 1rem 1rem 1rem;
+    color: white;
+    filter: drop-shadow(0 0 0.5rem #222);
+}
+#Bold-title {
+    filter: drop-shadow(0 0 0.5rem #222);
+    color: #F8ECD3;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 5rem;
+    margin: 100 auto;
+    text-align: center;
+    
+}
+  
+  h1 {
+    color: rgb(128, 0, 0);
+    margin-left: 20px;
+  }
+
+  .landing-page-content {
+    position: relative;
+    text-align: center; 
+    left: 50%;
+    top: 5rem;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%); /* for IE 9 */
+    -webkit-transform: translate(-50%, 0%); /* for Safari */
+  
+    /* optional size in px or %: */
+    width: 50rem;
+    height: 100%;
+}
